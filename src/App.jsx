@@ -1,12 +1,8 @@
 import "./App.css";
-import EventDetails from "./components/eventDetails";
+import EventBooking from "./components/eventBooking";
 
 function App() {
-  return (
-    <div>
-      <EventDetails />
-    </div>
-  );
+  return <EventBooking />;
 }
 
 export default App;
